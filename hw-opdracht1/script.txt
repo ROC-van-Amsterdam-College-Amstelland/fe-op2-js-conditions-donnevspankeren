@@ -1,0 +1,29 @@
+function rekenUit(){
+    var getal1= parseInt( document.getElementById("veld1").value) ;
+    var getal2= parseInt ( document.getElementById("veld2").value);
+
+    if (getal1 > getal2){
+       alert(getal1 + getal2)
+    } else {
+        console.log 
+        (getal1 + getal2)
+    }
+
+    if ( getal1 <= getal2){
+        alert(getal2 - getal1)
+    } else{
+        alert("fout")
+    }
+
+    if ( getal1 == 10 && getal1 <= getal2 ){
+        alert(getal1 + getal2)
+    } else{
+        alert("fout")
+    }
+
+    if ( getal2 == 5 && getal1 >= getal2){
+        alert(getal1 - getal2)
+    }
+    
+}
+
